@@ -1,0 +1,74 @@
+# Ignore Docker-related files
+*.tar
+*.tar.gz
+*.tgz
+
+# Ignore build, development, and dependency directories
+build/
+devel/
+install/
+log/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+
+# Ignore ROS2 specific files and directories
+dev_ws/build/
+dev_ws/devel/
+dev_ws/install/
+dev_ws/log/
+
+# Ignore ROS2 package build files
+*.so
+*.d
+*.cmake
+
+# Ignore configuration files for development tools
+*.sublime-project
+*.sublime-workspace
+*.idea/
+.vscode/
+*.code-workspace
+
+# Ignore Python virtual environments
+venv/
+.env/
+*.egg-info/
+*.eggs/
+
+# Ignore compiled binary files and artifacts
+*.out
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+
+# Ignore IDE and editor specific files
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore general files
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Ignore custom and temporary files
+*.local
+*.bak
+*.tmp
+*.orig
+
+# Ignore ROS2 log files and temporary files
+dev_ws/.ros/
+dev_ws/.vscode/
+dev_ws/.idea/
