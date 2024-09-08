@@ -7,7 +7,7 @@ services:
     container_name: cleaner_dev
     volumes:
       # - /tmp/.X11-unix:/tmp/.X11-unix:rw
-      - ./dev_ws/src:/root/dev_ws/src
+      - ./dev_ws/src:/home/ros/dev_ws/src
       - /dev:/dev
     device_cgroup_rules:
       - "c *:* rmw"
